@@ -12,50 +12,50 @@ public class SmartGadget {
 	Scanner in = new Scanner(System.in);
 	
 	//create setter method
-	public void setBrand(String brand) {
+	public void setBrand() {
 		System.out.println("Enter the brand name: ");
-		brand = in.next();
+		this.brand = in.next();
 	}
 	
-	public void setModel(String model) {
+	public void setModel() {
 		System.out.println("Enter the model of the gadget: ");
-		model = in.next();
+		this.model = in.next();
 	}
 	
-	public void setOS(String operatingSys) {
+	public void setOS() {
 		System.out.println("Enter the type of operating system of the gadget: ");
-		operatingSys = in.next();
+		this.operatingSys = in.next();
 	}
 	
-	public void setYear(int year) {
+	public void setYear() {
 		System.out.println("Enter the released year of the gadget: ");
-		year = in.nextInt();
+		this.year = in.nextInt();
 	}
 	
-	public void setPrice(double price) {
+	public void setPrice() {
 		System.out.println("Enter the current price of the gadget: ");
-		price = in.nextInt();
+		this.price = in.nextInt();
 	}
 	
 	//create getter method
 	public String getBrand() {
-		return brand;
+		return this.brand;
 	}
 	
 	public String getModel() {
-		return model;
+		return this.model;
 	}
 	
 	public String getOS() {
-		return operatingSys;
+		return this.operatingSys;
 	}
 	
 	public int getYear() {
-		return year;
+		return this.year;
 	}
 	
 	public double getPrice() {
-		return price;
+		return this.price;
 	}
 	
 	
