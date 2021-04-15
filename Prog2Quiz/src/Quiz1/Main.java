@@ -11,6 +11,7 @@ public class Main {
 		iphone.setYear();
 		iphone.setPrice();
 		
+		System.out.println(" ******* IPHONE ******* ");
 		System.out.println("The brand is: " +iphone.getBrand());
 		System.out.println("The model is: " +iphone.getModel());
 		System.out.println("The operating system is: " +iphone.getOS());
